@@ -9,7 +9,7 @@ function PortfolioImage({ isVisable, setIsVisable }) {
     >
       <Image
         className="w-full  sm:w-[600px] sm:h-[700px] "
-        src="/public/IMG_3986_2_-removebg.png"
+        src="/IMG_3986_2_-removebg.png"
       />
 
       <div className=" w-full h-[400px] sm:w-[600px] sm:h-[600px] md:w-[600px] md:h-[600px] bg-orange-secondary absolute -bottom-1/2  right-1/2 translate-x-1/2 rounded-full -z-10"></div>
