@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.queue-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  height: 200px; /* Adjust based on your needs */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+Add smooth transitions for Swiper slides .swiper-slide {
+  transition: transform 0.8s ease-in-out;
+}
+.swiper-slide {
+  transition-timing-function: linear !important; /* Ensures linear transition */
+}
